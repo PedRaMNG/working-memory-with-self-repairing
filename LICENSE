@@ -1,6 +1,9 @@
+Some parts of the code are from: https://github.com/altergot/neuro-astro-network
+The self-repairing capability and some modifications in the working memory model are added in this work.
+
 MIT License
 
-Copyright (c) 2023 Pedram Naghieh
+Copyright (c) 2023 Pedram Naghieh, Abolfazl Delavar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
