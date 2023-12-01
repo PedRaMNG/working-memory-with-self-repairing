@@ -1,4 +1,4 @@
-# Working Memory(WM) with Self Repairing (SR) in a Spiking Neuron-Astrocyte Network (SNAN)
+# Working Memory (WM) with Self Repairing (SR) in a Spiking Neuron-Astrocyte Network (SNAN)
 
 Some parts of the code are from: https://github.com/altergot/neuro-astro-network
 
