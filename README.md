@@ -11,7 +11,7 @@ Link to the paper: https://doi.org/10.1016/j.isci.2023.108241
 # Requirements:
 
 * MATLAB 2018 or later.
-* A system with minimum 32 G of ram.
+* The minimum required amount of RAM is 32 GB
 
 # Settings
 
@@ -74,3 +74,19 @@ In order to get the results, run `analytic_metrics.m` file. This simulation, dep
 Since this simulation takes a long time to be done, we incorporated the saved output from our own simulations in `dataa` folder, in order to load those data and plot the outputs, you have to run `analyticPlot.m` file.
 
 _To get the code and data to run this experiment, contact the corresponding author "**Mahmood Amiri"**._
+
+# Authors
+
+* Pedram Naghieh - _Implementation, Biological model constructing_ - [PedRaMNG](https://github.com/PedRaMNG)
+* Abolfazl Delavar - _Implementation, Biological model constructing_ - [abolfazldelavar](https://github.com/abolfazldelavar)
+* Mahmood Amiri - _Project vision, Biological model constructing_
+* Herbert Peremans - _Project vision_
+
+# Cite
+
+P. Naghieh, A. Delavar, M. Amiri, and H. Peremans, “Astrocyte’s self-repairing characteristics improve working memory in spiking neuronal networks,” iScience, p. 108241, Oct. 2023, doi: 10.1016/j.isci.2023.108241
+
+# License 
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/PedRaMNG/working-memory-with-self-repairing/blob/main/LICENSE) file for details.
+
