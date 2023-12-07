@@ -157,8 +157,7 @@ function [params] = model_parameters(need_set)
     params.F_recall   = 6;             % Spike activity of larger than or equal to this,
                                        % astrocytes start to impact the neurons
     params.OHM_memorize = 0.7;         % minimum sum of glutamate & 2AG for memorize
-    params.OHM_recall_local    = 0.2;
-    params.OHM_recall_global   = 6*0.7;       
+    params.OHM_recall_local    = 0.2;     
     params.ca_threshold_global = 0.15; % 0.15    
 
     %% Memory performance

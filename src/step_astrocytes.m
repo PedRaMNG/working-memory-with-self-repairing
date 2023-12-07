@@ -113,7 +113,7 @@ function [Ca, h, IP3, I_WM, array_I_neuro, Gli_local, Gli_global, I_WM_OHM] = ..
             end
             
             % Whole-cell gliotransmitter for WM 
-            if (Ca(j, k) > params.ca_threshold_global) && (I_WM(j,k,i)) && (neuron_astrozone_activity_OHM(j, k) >= params.OHM_recall_global)
+            if (Ca(j, k) > params.ca_threshold_global) && (I_WM(j,k,i)) 
                 % gliotransmitter release from astrocytes
                 Gli_global(j,k) = Gli_global(j,k) + params.step*(params.r_Glu*1.5/0.035 - (Gli_global(j,k)/params.tau_Glu)); 
             else
